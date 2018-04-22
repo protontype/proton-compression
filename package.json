@@ -1,7 +1,7 @@
 {
   "name": "proton-compression",
   "version": "1.0.0",
-  "description": "Comprossion module for Protontype",
+  "description": "Compression middleware for Protontype",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
