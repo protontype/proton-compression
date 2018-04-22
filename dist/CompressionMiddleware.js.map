@@ -1,0 +1,1 @@
+{"version":3,"file":"CompressionMiddleware.js","sourceRoot":"","sources":["../src/CompressionMiddleware.ts"],"names":[],"mappings":";;;;;;;;;;;;;;AAAA,2CAAoF;AACpF,8DAAsC;AAEtC,2BAAmC,SAAQ,6BAAgB;IAEvD,QAAQ,CAAC,MAAgC;QACrC,qBAAW,EAAE,CAAC,MAAM,CAAC,GAAG,EAAE,MAAM,CAAC,GAAG,EAAE,MAAM,CAAC,IAAI,CAAC,CAAC;IACvD,CAAC;CACJ;AAHG;IADC,uBAAU,EAAE;;;;qDAGZ;AAJL,sDAKC"}

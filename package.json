@@ -1,0 +1,33 @@
+{
+  "name": "proton-compression",
+  "version": "1.0.0",
+  "description": "Comprossion module for Protontype",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protontype/proton-compression.git"
+  },
+  "keywords": [
+    "protontype",
+    "compression",
+    "api",
+    "rest",
+    "nodejs"
+  ],
+  "author": "Humberto Machado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/protontype/proton-compression/issues"
+  },
+  "homepage": "https://github.com/protontype/proton-compression#readme",
+  "dependencies": {
+    "compression": "^1.7.2",
+    "protontype": "^2.3.4"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
+}
