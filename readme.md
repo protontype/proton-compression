@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/proton-compression.svg)](https://badge.fury.io/js/proton-compression)
+
 # A compression middleware for Protontype
 
 This module wrap [Compression](https://github.com/expressjs/compression) Nodejs module for use into a [Protontype](https://protontype.github.io/) project
