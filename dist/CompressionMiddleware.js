@@ -22,8 +22,9 @@ class CompressionMiddleware extends protontype_1.ProtonMiddleware {
 __decorate([
     protontype_1.Middleware(),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [typeof (_a = typeof protontype_1.MiddlewareFunctionParams !== "undefined" && protontype_1.MiddlewareFunctionParams) === "function" && _a || Object]),
     __metadata("design:returntype", void 0)
 ], CompressionMiddleware.prototype, "compress", null);
 exports.CompressionMiddleware = CompressionMiddleware;
+var _a;
 //# sourceMappingURL=CompressionMiddleware.js.map
