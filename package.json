@@ -1,6 +1,6 @@
 {
   "name": "proton-compression",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compression middleware for Protontype",
   "main": "dist/index.js",
   "scripts": {
