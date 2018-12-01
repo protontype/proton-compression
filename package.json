@@ -1,6 +1,6 @@
 {
   "name": "proton-compression",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Compression middleware for Protontype",
   "main": "dist/index.js",
   "scripts": {
@@ -24,10 +24,11 @@
   },
   "homepage": "https://github.com/protontype/proton-compression#readme",
   "dependencies": {
+    "@types/compression": "0.0.36",
     "compression": "^1.7.2",
-    "protontype": "^2.3.4"
+    "protontype": "^2.4.0"
   },
   "devDependencies": {
-    "typescript": "^2.8.1"
+    "typescript": "^3.2.1"
   }
 }

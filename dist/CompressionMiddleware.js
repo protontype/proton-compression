@@ -10,11 +10,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
-}
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const protontype_1 = require("protontype");
 const compression_1 = __importDefault(require("compression"));
-class CompressionMiddleware extends protontype_1.ProtonMiddleware {
+class CompressionMiddleware extends protontype_1.BaseMiddleware {
     compress(params) {
         compression_1.default()(params.req, params.res, params.next);
     }
@@ -22,9 +22,8 @@ class CompressionMiddleware extends protontype_1.ProtonMiddleware {
 __decorate([
     protontype_1.Middleware(),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [typeof (_a = typeof protontype_1.MiddlewareFunctionParams !== "undefined" && protontype_1.MiddlewareFunctionParams) === "function" && _a || Object]),
+    __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], CompressionMiddleware.prototype, "compress", null);
 exports.CompressionMiddleware = CompressionMiddleware;
-var _a;
 //# sourceMappingURL=CompressionMiddleware.js.map
